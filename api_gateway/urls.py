@@ -14,5 +14,4 @@ urlpatterns = [
     path('auth/login', auth_views.login),
     path('auth/signup', auth_views.signup),
     path('auth/change-password', auth_views.change_password),
-
 ]
